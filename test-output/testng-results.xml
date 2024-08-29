@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-28T17:50:38 IST" name="Default suite" finished-at="2024-08-28T17:50:40 IST" duration-ms="2640">
+  <suite started-at="2024-08-29T12:38:51 IST" name="Default suite" finished-at="2024-08-29T12:38:55 IST" duration-ms="4389">
     <groups>
     </groups>
-    <test started-at="2024-08-28T17:50:38 IST" name="Default test" finished-at="2024-08-28T17:50:40 IST" duration-ms="2640">
+    <test started-at="2024-08-29T12:38:51 IST" name="Default test" finished-at="2024-08-29T12:38:55 IST" duration-ms="4389">
       <class name="com.qa.ecommapi.tests.profileApprovalTest">
-        <test-method signature="conresProfileApproval()[pri:1, instance:com.qa.ecommapi.tests.profileApprovalTest@77102b91]" started-at="2024-08-28T17:50:38 IST" name="conresProfileApproval" finished-at="2024-08-28T17:50:40 IST" duration-ms="2547" status="PASS">
+        <test-method signature="conresProfileApproval()[pri:1, instance:com.qa.ecommapi.tests.profileApprovalTest@77102b91]" started-at="2024-08-29T12:38:51 IST" name="conresProfileApproval" finished-at="2024-08-29T12:38:55 IST" duration-ms="4261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- conresProfileApproval -->

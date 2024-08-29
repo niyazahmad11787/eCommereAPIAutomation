@@ -3,16 +3,18 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import com.qa.ecommap.util.Customer;
 public class profileApproval {
 
-	 public static Map<String, Object> profilePayload() {
+	 public static Map<String, Object> profilePayload(Customer customerData) {
 	        // Creating the main customer HashMap
 	        Map<String, Object> customer = new HashMap<>();
-	        customer.put("mobile", "7678529457");
+	        customer.put("mobile", customerData.getPhone());
 	        customer.put("customer_type", "CONTRACTOR");
 	        customer.put("sub_customer_type", "Architect");
-	        customer.put("email", "testcon@gmail.com");
-	        customer.put("first_name", "Test");
+	        customer.put("email", customerData.getEmail());
+	        customer.put("first_name", customerData.getFirstName());
 	        customer.put("last_name", "Contractor");
 	        customer.put("gst_number", null);
 	        customer.put("pan_number", null);
